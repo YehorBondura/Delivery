@@ -36,5 +36,8 @@ int main()
 	{
 		delivery->process();
 	}
+
+	std::cout << "\nPress Enter to exit...";
+	std::cin.get();
 	return 0;
 }
